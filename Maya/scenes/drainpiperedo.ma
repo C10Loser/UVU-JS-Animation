@@ -1,26 +1,25 @@
 //Maya ASCII 2027 scene
 //Name: drainpiperedo.ma
-//Last modified: Tue, Sep 15, 2026 09:05:02 PM
+//Last modified: Tue, Sep 15, 2026 11:48:15 PM
 //Codeset: 1252
 requires maya "2027";
 requires "stereoCamera" "10.0";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
 		 "mtoa" "5.6.2";
 requires -nodeType "UsdDefaultSettings" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.37.0";
-requires "stereoCamera" "10.0";
 currentUnit -l inch -a degree -t film;
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "3D9ABA7A-436C-46EA-E62D-8BA0AA8BCBD0";
+fileInfo "UUID" "72A5CCAF-41E4-A18B-4117-0DB2A98B4F1F";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "ADB21D4F-4764-DE6B-BF91-92BDD82D4B8E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 46.964896531728442 10.713906977054597 -2.0391247980751737 ;
-	setAttr ".r" -type "double3" -368.40000000021809 452.39999999999674 0 ;
+	setAttr ".t" -type "double3" 35.535213214620399 12.511292266706318 5.4516029472545258 ;
+	setAttr ".r" -type "double3" -369.60000000018402 441.19999999999271 5.1974659202368779e-15 ;
 	setAttr ".rpt" -type "double3" -1.6947211753475012e-15 -1.8050361946261925e-15 6.9158908579468943e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F911AC68-4B3C-E0FE-3144-F78469B715F8";
@@ -29,7 +28,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.03937007874015748;
 	setAttr ".fcp" 3937.0078740157478;
 	setAttr ".fd" 1.9685039370078738;
-	setAttr ".coi" 71.083690669030318;
+	setAttr ".coi" 59.241693639350061;
 	setAttr ".ow" 3.9370078740157477;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -41,7 +40,7 @@ createNode transform -s -n "top";
 	setAttr ".v" no;
 	setAttr ".t" -type "double3" -0.16851484744437131 397.95738204257702 7.4289705457301132 ;
 	setAttr ".r" -type "double3" 90.000000000000014 -1.4033418547637176e-14 180 ;
-	setAttr ".rpt" -type "double3" 4.6762077623252873e-15 3.9934793283624664e-15 2.0104034732702997e-15 ;
+	setAttr ".rpt" -type "double3" 4.6762077623252866e-15 3.9934793283624664e-15 2.0104034732702997e-15 ;
 createNode camera -s -n "topShape" -p "top";
 	rename -uid "43336165-4682-622B-C959-98974DD175E8";
 	setAttr -k off ".v" no;
@@ -63,7 +62,7 @@ createNode transform -s -n "front";
 	setAttr ".v" no;
 	setAttr ".t" -type "double3" 387.55493225365785 3.7593511471841445 -3.129801489768834 ;
 	setAttr ".r" -type "double3" 0 90 0 ;
-	setAttr ".rpt" -type "double3" 7.9444057535867825e-15 0 -9.2622893005124908e-15 ;
+	setAttr ".rpt" -type "double3" 7.944405753586781e-15 0 -9.2622893005124908e-15 ;
 createNode camera -s -n "frontShape" -p "front";
 	rename -uid "9C7C67ED-4F25-0682-E19B-8284CD03EF5A";
 	setAttr -k off ".v" no;
@@ -103,6 +102,7 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode transform -n "measure";
 	rename -uid "2C096FF9-458D-B619-6CCC-BFB84848B2D3";
+	setAttr ".v" no;
 	setAttr ".t" -type "double3" -21.877759623534025 1.444 -0.78099999999999992 ;
 	setAttr ".r" -type "double3" 0 90 0 ;
 	setAttr ".s" -type "double3" 9.553 9.553 1 ;
@@ -10006,7 +10006,7 @@ createNode mesh -n "Aelbow1Shape" -p "Aelbow1";
 		 -0.89977968 5.73804855 -4.99052525 -0.81163579 5.69913578 -4.99052525 -0.81163579 5.69913578 -4.77529001
 		 -0.89977968 5.73804855 -4.77529001 -0.89977968 5.73804855 -4.31915188 -0.83133328 5.7037077 -4.13499498
 		 -0.025262231 6.47365904 -4.029398441 0.10363098 6.34448814 -4.029398441 0.10698461 6.34783411 -4.12649679
-		 0.25733098 6.19716263 -4.12649679 0.253977 6.19381571 -4.029398441 0.41028157 6.037171364 -4.029398441
+		 0.25733095 6.19716263 -4.12649679 0.253977 6.19381571 -4.029398441 0.41028157 6.037171364 -4.029398441
 		 0.41363519 6.040517807 -4.12649679 0.55739146 5.89645004 -4.12649679 0.55403787 5.89310312 -4.029398441
 		 0.68541813 5.76143789 -4.029398441 0.68877137 5.76478481 -4.12649679 0.8829695 5.57016516 -4.12649679
 		 0.87961626 5.56681871 -4.029398441 1.051356673 5.39470577 -4.029398441 1.054710627 5.39805174 -4.12649679
@@ -10029,7 +10029,7 @@ createNode mesh -n "Aelbow1Shape" -p "Aelbow1";
 		 0.87961626 5.56681871 -7.97185087 0.8829695 5.57016516 -7.87475252 0.68877137 5.76478481 -7.87475252
 		 0.68541813 5.76143789 -7.97185087 0.55403787 5.89310312 -7.97185087 0.55739146 5.89645004 -7.87475252
 		 0.41363519 6.040517807 -7.87475252 0.41028157 6.037171841 -7.97185087 0.253977 6.19381571 -7.97185087
-		 0.25733098 6.19716263 -7.87475252 0.10698386 6.34783411 -7.87475252;
+		 0.25733095 6.19716263 -7.87475252 0.10698386 6.34783411 -7.87475252;
 	setAttr ".vt[830:995]" 0.10363098 6.34448814 -7.97185087 -0.016805694 6.46518517 -7.97185087
 		 -0.16266042 6.61135626 -7.86625433 -0.21663125 6.66544437 -7.70617676 -0.2166305 6.66544437 -7.20642567
 		 -0.14545374 6.60082006 -7.20642567 -0.14545374 6.60082006 -7.0040364265 -0.2166305 6.66544437 -7.0040364265
@@ -26534,20 +26534,20 @@ createNode mesh -n "polySurfaceShape2" -p "drainbase11";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "915290F8-4880-DA1B-DA75-87A6E5E662FC";
+	rename -uid "76B85700-41FD-96D1-8B0A-7397A0B0EB29";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "FF23E071-424F-24F5-FF8B-14A4DFAB172D";
+	rename -uid "F1D68574-4D1D-0FAE-DC74-3EA1E049AF20";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "B057172C-4394-D234-B4C9-48A6BEA1411F";
+	rename -uid "322A41DF-4D1F-74F5-1759-289DBD27EC3F";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "C91917FC-49AD-1D03-B371-BBBC43E05E5E";
+	rename -uid "3943D77F-4E1D-1F09-524B-FDADC7985C36";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "ADF8E987-4B4D-41D7-0522-AE8DA0569CD8";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "455D276E-49C9-97E0-88AC-AF80D4B31CF0";
+	rename -uid "A59EADF6-4D5E-1B02-757E-B1812055FA04";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "23C9D990-476B-024B-8874-9BA9FBDAE937";
 	setAttr ".g" yes;
@@ -26703,6 +26703,7 @@ select -ne :initialShadingGroup;
 	setAttr -s 3 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
+select -ne :initialMaterialInfo;
 select -ne :defaultRenderGlobals;
 	addAttr -ci true -h true -sn "dss" -ln "defaultSurfaceShader" -dt "string";
 	setAttr ".ren" -type "string" "arnold";
@@ -26723,8 +26724,6 @@ select -ne :defaultColorMgtGlobals;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
-select -ne :ikSystem;
-	setAttr -s 4 ".sol";
 connectAttr "cameraView1.msg" ":sideShape.b" -na;
 connectAttr ":defaultColorMgtGlobals.cme" "measureShape.cme";
 connectAttr ":defaultColorMgtGlobals.cfe" "measureShape.cmcf";
