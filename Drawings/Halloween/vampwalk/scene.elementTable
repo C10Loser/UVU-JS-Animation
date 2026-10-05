@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements  source="Harmony Premium (HarmonyPremium.exe) version 25.0.0 build 23967 2025-06-05 18:44:20" version="2500" build="23967" date="Mon Oct 5 10:04:50 2026" timeMsec="1791216290745" username="11017648" realUsername="11017648">
+ <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="2" elementName="Maggie_Design" elementFolder="Maggie_Design" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
+ <element id="3" elementName="maggie" elementFolder="maggie" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="5" elementName="maggie" elementFolder="maggie.5" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
+ <element id="6" elementName="LAYOUT" elementFolder="LAYOUT" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="7" elementName="layout1" elementFolder="layout1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="8" elementName="bodyblock" elementFolder="bodyblock" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="9" elementName="RANGEOFMOVEMENT" elementFolder="RANGEOFMOVEMENT" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="10" elementName="Footsteps" elementFolder="Footsteps" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="11" elementName="portportions" elementFolder="portportions" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="12" elementName="waist" elementFolder="waist" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="13" elementName="waistguide" elementFolder="waistguide" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="14" elementName="waist2g" elementFolder="waist2g" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+</elements>
