@@ -6,4 +6,5 @@
  <element id="4" elementName="facerouchs" elementFolder="facerouchs" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="5" elementName="Pcleanish" elementFolder="Pcleanish" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="6" elementName="Fcleanish" elementFolder="Fcleanish" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="7" elementName="Bcleanish" elementFolder="Bcleanish" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
