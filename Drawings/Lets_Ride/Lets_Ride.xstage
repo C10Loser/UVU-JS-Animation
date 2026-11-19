@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project  source="Harmony Premium (HarmonyPremium.exe) version 25.0.0 build 23967 2025-06-05 18:44:20" version="2500" build="23967" date="Mon Nov 16 09:59:10 2026" timeMsec="1794848350095" username="11017648" realUsername="11017648" creator="harmony">
+<project source="Harmony Premium (HarmonyPremium.exe) version 22.0.3 build 21960 2023-09-13 23:55:53" version="2203" build="21960" creator="harmony">
  <elements>
   <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
@@ -179,16 +179,14 @@
   <cameraInSymbols val="true"/>
   <scaleFactor val="1"/>
   <colorSpace val="sRGB"/>
-  <textureColorSpace val="sRGB"/>
   <convertPalettesColorSpace val="true"/>
-  <tvgRecoveryTexture val="true"/>
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="0d5a4a034fb010cf" nbframes="279" startFrame="1" stopFrame="279">
+  <scene name="Top" id="0d5a4a034fb010cf" nbframes="286" startFrame="1" stopFrame="286">
    <columns>
     <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
-     <elementSeq exposures="1-280" val="1" id="1"/>
+     <elementSeq exposures="1-286" val="1" id="1"/>
     </column>
     <column type="0" name="ATV-0D5A4A034FB02360" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-4" val="1" id="2"/>
@@ -210,7 +208,7 @@
      <elementSeq exposures="144-159" val="13" id="2"/>
      <elementSeq exposures="160-175" val="14" id="2"/>
      <elementSeq exposures="176-195" val="15" id="2"/>
-     <elementSeq exposures="196-281" val="19" id="2"/>
+     <elementSeq exposures="196-288" val="19" id="2"/>
     </column>
     <column type="0" name="ATV-0D5A4A034FB31070" displayOrder="0" width="100" anonymous="true" id="3">
      <elementSeq exposures="1-20" val="1" id="3"/>
@@ -226,12 +224,7 @@
      <elementSeq exposures="64-67" val="14" id="3"/>
      <elementSeq exposures="68-69" val="15" id="3"/>
      <elementSeq exposures="70-71" val="30" id="3"/>
-     <elementSeq exposures="72-73" val="31" id="3"/>
-     <elementSeq exposures="74-75" val="32" id="3"/>
-     <elementSeq exposures="76-77" val="33" id="3"/>
-     <elementSeq exposures="78-79" val="34" id="3"/>
-     <elementSeq exposures="80-81" val="35" id="3"/>
-     <elementSeq exposures="82-85" val="36" id="3"/>
+     <elementSeq exposures="72-85" val="31" id="3"/>
      <elementSeq exposures="96-99" val="17" id="3"/>
      <elementSeq exposures="100-103,108-111" val="18" id="3"/>
      <elementSeq exposures="104-107,114-119" val="19" id="3"/>
@@ -240,7 +233,7 @@
      <elementSeq exposures="124-127" val="23" id="3"/>
      <elementSeq exposures="128-133" val="24" id="3"/>
      <elementSeq exposures="134-195" val="25" id="3"/>
-     <elementSeq exposures="196-281" val="28" id="3"/>
+     <elementSeq exposures="196-288" val="28" id="3"/>
     </column>
     <column type="0" name="ATV-0D5A4A034FBE473F" displayOrder="0" width="100" anonymous="true" id="4">
      <elementSeq exposures="128-133" val="1" id="4"/>
@@ -248,8 +241,8 @@
      <elementSeq exposures="204-207" val="23" id="4"/>
      <elementSeq exposures="208-211,224-227,240-243,256-259,272-275" val="13" id="4"/>
      <elementSeq exposures="212-215,228-231,244-247,260-263,276-279" val="10" id="4"/>
-     <elementSeq exposures="216-219,232-235,248-251,264-267" val="11" id="4"/>
-     <elementSeq exposures="220-223,236-239,252-255,268-271" val="12" id="4"/>
+     <elementSeq exposures="216-219,232-235,248-251,264-267,280-283" val="11" id="4"/>
+     <elementSeq exposures="220-223,236-239,252-255,268-271,284-287" val="12" id="4"/>
     </column>
     <column type="0" name="ATV-0D5A4A034FBEE30C" displayOrder="0" width="100" anonymous="true" id="5">
      <elementSeq exposures="144-145" val="1" id="5"/>
@@ -263,7 +256,7 @@
      <elementSeq exposures="230-233" val="11" id="5"/>
      <elementSeq exposures="234-237" val="14" id="5"/>
      <elementSeq exposures="238-241" val="12" id="5"/>
-     <elementSeq exposures="242-281" val="15" id="5"/>
+     <elementSeq exposures="242-288" val="15" id="5"/>
     </column>
     <column type="0" name="ATV-0D5A4A034FBEE38E" displayOrder="0" width="100" anonymous="true" id="6">
      <elementSeq exposures="160-167" val="1" id="6"/>
@@ -273,7 +266,7 @@
      <elementSeq exposures="250-253" val="7" id="6"/>
      <elementSeq exposures="254-257" val="5" id="6"/>
      <elementSeq exposures="258-261" val="8" id="6"/>
-     <elementSeq exposures="262-280" val="6" id="6"/>
+     <elementSeq exposures="262-290" val="6" id="6"/>
     </column>
     <column type="0" name="ATV-0D5A4A034FBEE3F3" displayOrder="0" width="100" anonymous="true" id="7">
      <elementSeq exposures="176-184" val="1" id="7"/>
@@ -285,13 +278,67 @@
      <elementSeq exposures="181-184" val="2" id="8"/>
      <elementSeq exposures="185-195" val="3" id="8"/>
     </column>
-    <column type="0" name="ATV-0D6B5C943D4A024024A0E25A" display="false" displayOrder="0" width="100" anonymous="true" id="9">
+    <column type="0" name="ATV-0D6B5C943D4A024024A0E25A" displayOrder="0" width="100" anonymous="true" id="9">
      <elementSeq exposures="1-270" val="1" id="9"/>
     </column>
-    <column type="0" name="ATV-0DA85C573D4F026124A1A6AB" display="false" displayOrder="0" width="100" anonymous="true" id="10">
+    <column type="0" name="ATV-0DA85C573D4F026124A1A6AB" displayOrder="0" width="100" anonymous="true" id="10">
      <elementSeq exposures="1-32" val="1" id="10"/>
     </column>
-    <column type="0" name="ATV-0DB45C4B3D1A024224A47E1D" display="false" displayOrder="0" width="100" anonymous="true" id="11"/>
+    <column type="0" name="ATV-0DB45C4B3D1A024224A47E1D" displayOrder="0" width="100" anonymous="true" id="11"/>
+    <column type="1" name="diologuetest" displayOrder="0" width="100" anonymous="false" disabled="false" videoSync="true" soundLocked="false">
+     <soundSequence startFrame="1" stopFrame="16" name="diologuetest.wav" id="0d5cc38e76d034a5" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="0" clippingTimeStop="5.74920654296875">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+     <soundSequence startFrame="21" stopFrame="87" name="diologuetest.wav" id="0d5cc38e76d036bb" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="0.75" clippingTimeStop="5.74920654296875">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+     <soundSequence startFrame="98" stopFrame="133" name="diologuetest.wav" id="0d5cc38e76d04757" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="3.5416667461395264" clippingTimeStop="5.74920654296875">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+     <soundSequence startFrame="136" stopFrame="139" name="diologuetest.wav" id="0d5cc38e76d04758" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="5.2083330154418945" clippingTimeStop="5.74920654296875">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+    </column>
+    <column type="1" name="car-startingedit" displayOrder="0" width="100" anonymous="false" disabled="false" videoSync="true" soundLocked="false">
+     <soundSequence startFrame="144" stopFrame="180" name="car-startingedit_1.wav" id="0d5cc38e76d0db20" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="0" clippingTimeStop="1.6538774967193604">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+    </column>
+    <column type="1" name="gearshift" displayOrder="0" width="100" anonymous="false" disabled="false" videoSync="true" soundLocked="false">
+     <soundSequence startFrame="7" stopFrame="12" name="racemusic.wav" id="0d5cc38e76d41cf5" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="8.0416660308837891" clippingTimeStop="8.4672107696533203">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+     <soundSequence startFrame="130" stopFrame="133" name="gearshift.wav" id="0d5cc38e76d25e67" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="0" clippingTimeStop="0.57115644216537476">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+     <soundSequence startFrame="182" stopFrame="192" name="gearshift.wav" id="0d5cc38e76d1f3d9" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="0" clippingTimeStop="0.57115644216537476">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+    </column>
+    <column type="1" name="racemusic" displayOrder="0" width="100" anonymous="false" disabled="false" videoSync="true" soundLocked="false">
+     <soundSequence startFrame="128" stopFrame="196" name="racemusic.wav" id="0d5cc38e76d40808" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="3.4583334922790527" clippingTimeStop="8.4672107696533203">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+     <soundSequence startFrame="197" stopFrame="212" name="racemusic.wav" id="0d5cc38e76d40809" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="7.7916665077209473" clippingTimeStop="8.4672107696533203">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+    </column>
+    <column type="1" name="winkedit" displayOrder="0" width="100" anonymous="false" disabled="false" videoSync="true" soundLocked="false">
+     <soundSequence startFrame="23" stopFrame="31" name="winkedit.wav" id="0d5cc38e76d0ef98" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="0.91666668653488159" clippingTimeStop="1.2712925672531128">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+     <soundSequence startFrame="170" stopFrame="183" name="winkedit.wav" id="0d5cc38e76d1fd81" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="0" clippingTimeStop="1.2712925672531128">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+     <soundSequence startFrame="194" stopFrame="199" name="winkedit.wav" id="0d5cc38e76d1fd80" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="0.58333331346511841" clippingTimeStop="1.2712925672531128">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+    </column>
+    <column type="1" name="windhieldwipersedit" displayOrder="0" width="100" anonymous="false" disabled="false" videoSync="true" soundLocked="false">
+     <soundSequence startFrame="203" stopFrame="283" name="windhieldwipersedit_1.wav" id="0d5cc38e76d1ca75" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="6.625" clippingTimeStop="10.429024696350098">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+    </column>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -336,15 +383,15 @@
        <drawingName val="frames/final-"/>
        <moviePath val="frames/output"/>
        <movieFormat val="com.toonboom.quicktime.legacy"/>
-       <movieAudio val=""/>
-       <movieVideo val=""/>
-       <movieVideoaudio val=""/>
+       <movieAudio/>
+       <movieVideo/>
+       <movieVideoaudio/>
        <leadingZeros val="3"/>
        <start val="1"/>
        <drawingType val="TGA"/>
        <enabling>
         <filter val="ALWAYS"/>
-        <filterName val=""/>
+        <filterName/>
         <filterResX val="720"/>
         <filterResY val="540"/>
        </enabling>
@@ -357,7 +404,7 @@
 // ...]]>
         </val>
        </scriptEditor>
-       <colorSpace val=""/>
+       <colorSpace/>
        <compositePartitioning val="NoCompositePartitioning"/>
        <zPartitionRange val="1" defaultValue="1"/>
        <cleanUpPartitionFolders val="true"/>
@@ -424,10 +471,10 @@
        <drawing>
         <elementMode val="true"/>
         <element col="Drawing">
-         <layer val=""/>
+         <layer/>
         </element>
         <customName>
-         <name val=""/>
+         <name/>
          <extension val="tga"/>
          <fieldChart val="12" defaultValue="12"/>
         </customName>
@@ -473,7 +520,6 @@
        <canAnimate val="false"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
-       <framerate val="-1" defaultValue="-1"/>
       </attrs>
      </module>
      <module type="READ" name="thumbs" pos="0,0,10" publishUnderTab="thumbs">
@@ -537,10 +583,10 @@
        <drawing>
         <elementMode val="true"/>
         <element col="ATV-0D5A4A034FB02360">
-         <layer val=""/>
+         <layer/>
         </element>
         <customName>
-         <name val=""/>
+         <name/>
          <extension val="tga"/>
          <fieldChart val="12" defaultValue="12"/>
         </customName>
@@ -586,7 +632,6 @@
        <canAnimate val="false"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
-       <framerate val="-1" defaultValue="-1"/>
       </attrs>
      </module>
      <module type="READ" name="thumbs2" pos="0,0,9" publishUnderTab="thumbs2">
@@ -650,10 +695,10 @@
        <drawing>
         <elementMode val="true"/>
         <element col="ATV-0D5A4A034FB31070">
-         <layer val=""/>
+         <layer/>
         </element>
         <customName>
-         <name val=""/>
+         <name/>
          <extension val="tga"/>
          <fieldChart val="12" defaultValue="12"/>
         </customName>
@@ -699,7 +744,6 @@
        <canAnimate val="false"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
-       <framerate val="-1" defaultValue="-1"/>
       </attrs>
      </module>
      <module type="READ" name="thumbs3" pos="0,0,8" publishUnderTab="thumbs3">
@@ -763,10 +807,10 @@
        <drawing>
         <elementMode val="true"/>
         <element col="ATV-0D5A4A034FBE473F">
-         <layer val=""/>
+         <layer/>
         </element>
         <customName>
-         <name val=""/>
+         <name/>
          <extension val="tga"/>
          <fieldChart val="12" defaultValue="12"/>
         </customName>
@@ -812,7 +856,6 @@
        <canAnimate val="false"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
-       <framerate val="-1" defaultValue="-1"/>
       </attrs>
      </module>
      <module type="READ" name="thumbs4" pos="0,0,7" publishUnderTab="thumbs4">
@@ -876,10 +919,10 @@
        <drawing>
         <elementMode val="true"/>
         <element col="ATV-0D5A4A034FBEE30C">
-         <layer val=""/>
+         <layer/>
         </element>
         <customName>
-         <name val=""/>
+         <name/>
          <extension val="tga"/>
          <fieldChart val="12" defaultValue="12"/>
         </customName>
@@ -925,7 +968,6 @@
        <canAnimate val="false"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
-       <framerate val="-1" defaultValue="-1"/>
       </attrs>
      </module>
      <module type="READ" name="thumbs5" pos="0,0,6" publishUnderTab="thumbs5">
@@ -989,10 +1031,10 @@
        <drawing>
         <elementMode val="true"/>
         <element col="ATV-0D5A4A034FBEE38E">
-         <layer val=""/>
+         <layer/>
         </element>
         <customName>
-         <name val=""/>
+         <name/>
          <extension val="tga"/>
          <fieldChart val="12" defaultValue="12"/>
         </customName>
@@ -1038,7 +1080,6 @@
        <canAnimate val="false"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
-       <framerate val="-1" defaultValue="-1"/>
       </attrs>
      </module>
      <module type="READ" name="thumbs6" pos="0,0,5" publishUnderTab="thumbs6">
@@ -1102,10 +1143,10 @@
        <drawing>
         <elementMode val="true"/>
         <element col="ATV-0D5A4A034FBEE3F3">
-         <layer val=""/>
+         <layer/>
         </element>
         <customName>
-         <name val=""/>
+         <name/>
          <extension val="tga"/>
          <fieldChart val="12" defaultValue="12"/>
         </customName>
@@ -1151,7 +1192,6 @@
        <canAnimate val="false"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
-       <framerate val="-1" defaultValue="-1"/>
       </attrs>
      </module>
      <module type="READ" name="car" pos="0,0,2" publishUnderTab="car">
@@ -1216,10 +1256,10 @@
        <drawing>
         <elementMode val="true"/>
         <element col="ATV-0DA85C573D4F026124A1A6AB">
-         <layer val=""/>
+         <layer/>
         </element>
         <customName>
-         <name val=""/>
+         <name/>
          <extension val="tga"/>
          <fieldChart val="12" defaultValue="12"/>
         </customName>
@@ -1265,7 +1305,6 @@
        <canAnimate val="false"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
-       <framerate val="24" defaultValue="-1"/>
       </attrs>
      </module>
      <module type="READ" name="carref" pos="0,0,3" publishUnderTab="carref">
@@ -1330,10 +1369,10 @@
        <drawing>
         <elementMode val="true"/>
         <element col="ATV-0D6B5C943D4A024024A0E25A">
-         <layer val=""/>
+         <layer/>
         </element>
         <customName>
-         <name val=""/>
+         <name/>
          <extension val="tga"/>
          <fieldChart val="12" defaultValue="12"/>
         </customName>
@@ -1379,7 +1418,6 @@
        <canAnimate val="false"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
-       <framerate val="24" defaultValue="-1"/>
       </attrs>
      </module>
      <module type="READ" name="thumbs7" pos="0,0,4" publishUnderTab="thumbs7">
@@ -1443,10 +1481,10 @@
        <drawing>
         <elementMode val="true"/>
         <element col="ATV-0D5A51F61A252812">
-         <layer val=""/>
+         <layer/>
         </element>
         <customName>
-         <name val=""/>
+         <name/>
          <extension val="tga"/>
          <fieldChart val="12" defaultValue="12"/>
         </customName>
@@ -1492,7 +1530,6 @@
        <canAnimate val="false"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
-       <framerate val="-1" defaultValue="-1"/>
       </attrs>
      </module>
      <module type="READ" name="keys2" pos="0,0,1" publishUnderTab="keys2">
@@ -1557,10 +1594,10 @@
        <drawing>
         <elementMode val="true"/>
         <element col="ATV-0DB45C4B3D1A024224A47E1D">
-         <layer val=""/>
+         <layer/>
         </element>
         <customName>
-         <name val=""/>
+         <name/>
          <extension val="tga"/>
          <fieldChart val="12" defaultValue="12"/>
         </customName>
@@ -1606,7 +1643,6 @@
        <canAnimate val="false"/>
        <tileHorizontal val="false"/>
        <tileVertical val="false"/>
-       <framerate val="24" defaultValue="-1"/>
       </attrs>
      </module>
     </nodeslist>
@@ -1658,7 +1694,14 @@
      <symmetryGuideList selectedGuide="-1"/>
     </meta>
    </metas>
-   <timelineOrderer/>
+   <timelineOrderer>
+    <soundLayer soundName="windhieldwipersedit" index="5"/>
+    <soundLayer soundName="car-startingedit" index="1"/>
+    <soundLayer soundName="diologuetest" index="0"/>
+    <soundLayer soundName="gearshift" index="2"/>
+    <soundLayer soundName="winkedit" index="4"/>
+    <soundLayer soundName="racemusic" index="3"/>
+   </timelineOrderer>
   </scene>
  </scenes>
  <symbols>
